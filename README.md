@@ -14,7 +14,7 @@ The dataset was downloaded from [DrivenData](https://www.drivendata.org/competit
 
 ### Exploratory Data Analysis
 A detailed analysis of the dataset was conducted, including target distribution, missing values, outliers, and correlation analysis.  
-![Class Distribution of the Target](.pics/damage_grade_countplot.png)  
+![Class Distribution of the Target](pics/damage_grade_countplot.png)  
 ![Correlation Coefficients between Numerical Features and the Target](pics/barchart_corr.png)  
 
 ### Data Preprocessing and Feature Engineering
