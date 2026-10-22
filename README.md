@@ -14,8 +14,8 @@ The dataset was downloaded from [DrivenData](https://www.drivendata.org/competit
 
 ### Exploratory Data Analysis
 A detailed analysis of the dataset was conducted, including target distribution, missing values, outliers, and correlation analysis.  
-![Class Distribution of the Target](../pics/damage_grade_countplot.png)  
-![Correlation Coefficients between Numerical Features and the Target](../pics/barchart_corr.png)  
+![Class Distribution of the Target](.pics/damage_grade_countplot.png)  
+![Correlation Coefficients between Numerical Features and the Target](pics/barchart_corr.png)  
 
 ### Data Preprocessing and Feature Engineering
 - Target encoding was performed on geographic ID features to avoid dimensionality explosion caused by one-hot encoding and to preserve as much geographic information as possible.
@@ -32,7 +32,7 @@ A neural network model was also developed using PyTorch, incorporating embedding
 ## Results  
 The fine-tuned Random Forest model with an ordinal classifier achieved the best micro-averaged F1 score of 0.7394, making an improvement of 0.1579 over the baseline. The trained Neural Network model achieved the best score of 0.7402, making an improvement of 0.1587 over the baseline.
 
-<img src="../pics/submission_score_screenshot_nn.png" alt="Submission score" width="600">
+<img src="pics/submission_score_screenshot_nn.jpg" alt="Submission score" width="600">
 
 **Feature Importance**  
 Geographic location, height/area ratio, age, and foundation type of the building have the greatest influence on the model's predictions.
