@@ -39,12 +39,14 @@ Geographic location, height/area ratio, age, and foundation type of the building
 
 ## Tech Stack
 
-- **Language**: Python 3.9  
+- **Language**: Python
 - **Environment**: Jupyter Notebook  
 - **Data Processing**: Pandas, NumPy  
 - **Visualisation**: Matplotlib, Seaborn  
 - **Machine Learning**: Scikit-learn, Mord (for ordinal classification), Imbalanced-learn  
-- **Model Tuning**: GridSearchCV, Bayesian Optimisation (optuna)  
+- **Deep Learning**: PyTorch
+- **Model Tuning**: Optuna (hyperparameter optimisation)
+- **Scientific Computing**: SciPy
 - **Version Control**: Git, GitHub  
 
 
